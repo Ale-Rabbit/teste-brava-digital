@@ -1,4 +1,4 @@
-# teste-bravo-digital
+# teste-brava-digital
 
 - DESAFIO 1: Na seção1- banner fullscreen com slides. 
 - DESAFIO 2: Na seção3- personalizar a cor do mapa e o pin
