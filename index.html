@@ -1,19 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <title>Pulse</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<meta charset="utf-8">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Main Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+	<title>Pulse</title>
 </head>
+
+
 <body>
 
-<div class="jumbotron text-center">
-  <h1>Hello</h1>
-  <p>THIS IS THE FIRST CONTENT (in english because is cool)</p> 
-</div>
+    <!-- Menu -->
+    <header class="navbar navbar-custom">
+
+            <div class="container">
+
+                <div class="navbar-header page-scroll">
+                    <!-- Menu - botão mobile -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i> 
+                        <!-- TIRA O ESCRITO MENU. APENAS ICONE -->
+                    </button>
+
+                    <a class="navbar-brand" href="#page-top">PULSE</a> <!-- colocar aqui imagem do logo -->
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <!-- COLOCAR TODOS EM LETRA MAIUSCULA -->
+                        <li class="page-scroll">
+                            <a href="#sobre">Sobre o Pulse</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#local">Como chegar</a> <!-- seção 3 -->
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#galeria">Imagens</a>
+                        </li>
+                            <li class="page-scroll">
+                            <a href="#chwartzmann">A Chwartzmann</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#contato">Fale com a gente</a> <!-- seção 6 -->
+                        </li>
+                    </ul>
+
+                </div> <!-- /.navbar-collapse -->
+            
+
+        <!-- final do Menu  --> 
+    </header>
+
+
+    <!-- Home Slide -->
+    <section id="home">  
+
+        <div id="home-carousel" class="carousel slide" data-interval="false">
+
+            <ol class="carousel-indicators">
+                    <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#home-carousel" data-slide-to="1"></li>
+                    <li data-target="#home-carousel" data-slide-to="2"></li>
+                    <li data-target="#home-carousel" data-slide-to="3"></li>
+                    <li data-target="#home-carousel" data-slide-to="4"></li>
+            </ol>
+            <!--/.carousel-indicators-->
+
+            <div class="carousel-inner">
+
+                <div class="item active"  style="background-image: url('img/slider/bg1.jpg')" >
+                    <div class="carousel-caption">
+                    </div>
+                </div> 
+
+                <div class="item" style="background-image: url('img/slider/bg2.jpg')">                
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+
+                <div class="item" style="background-image: url('img/slider/bg3.jpg')">                 
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('img/slider/bg4.jpg')">                 
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="item" style="background-image: url('img/slider/bg5.jpg')">                 
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+            </div>
+
+            <!--/.carousel-inner-->
+            <nav id="nav-arrows" class="nav-arrows hidden-xs hidden-sm visible-md visible-lg">
+                <a class="sl-prev hidden-xs" href="#home-carousel" data-slide="prev">
+                    <i class="fa fa-angle-left fa-3x"></i>
+                </a>
+                <a class="sl-next" href="#home-carousel" data-slide="next">
+                    <i class="fa fa-angle-right fa-3x"></i>
+                </a>
+            </nav>
+            
+        </div>
+
+    </section>
+    <!-- final do Home Slide -->   
+
+
+    <!-- Sobre o Pulse -->
+    <section id="sobre" >
+
+        <div class="container" class="col-md-6 col-sm-12">
+        <h2>Um jeito contemporâneo de viver </h2> <!-- COLOCAR TUDO EM MAIUSCULO -->
+        <h5>Tempo é um dos...</h5>      
+        </div>
+        <!-- imagem de apartamento bonito -->
+
+    </section>
+    <!-- final do Sobre o Pulse -->
+
+
+<!--JavaScripts========================== -->
+
+<!-- jQuery -->
+<script src="js/jquery-1.11.1.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- jquery.nav -->
+<script src="js/jquery.nav.js"></script>
+
+
+<!--Wow script -->
+<script src="js/wow.min.js"></script>
+
+<!-- theme custom scripts -->
+<script src="js/main.js"></script>
 
 </body>
 </html>
+
