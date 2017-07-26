@@ -8,13 +8,16 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Fontes   -->
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Main Stylesheet -->
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
 
-    <!-- Main Responsive -->
+    <!-- Responsive -->
     <link rel="stylesheet" href="css/responsive.css">
 
 
@@ -22,7 +25,7 @@
 </head>
 
 
-<body>
+<body id="page-top">
 
     <!-- Menu -->
     <header class="navbar navbar-custom">
@@ -36,7 +39,10 @@
                         <!-- TIRA O ESCRITO MENU. APENAS ICONE -->
                     </button>
 
-                    <a class="navbar-brand" href="#page-top">PULSE</a> <!-- colocar aqui imagem do logo -->
+                    <!-- MUDAR TAMANHO E POSIÇÃO PARA DIFERENTES TELAS -->    
+                    <a class="navbar-logo" href="#page-top">
+                         <img src="img/logos/logo-vetor.png" id = "logo-nav" class="img-responsive" alt="PULSE">
+                    </a> 
 
                 </div>
 
@@ -132,11 +138,29 @@
     <!-- Sobre o Pulse -->
     <section id="sobre" >
 
-        <div class="container" class="col-md-6 col-sm-12">
-        <h2>Um jeito contemporâneo de viver </h2> <!-- COLOCAR TUDO EM MAIUSCULO -->
-        <h5>Tempo é um dos...</h5>      
+        <div class="row col-md-12 col-sm-12">
+            <img src="img/logos/logo.png" class="img-responsive logo-sobre" alt="Logo">
         </div>
-        <!-- imagem de apartamento bonito -->
+
+
+        <div class="cointeiner">
+
+
+            <div class=" col-md-6 col-sm-6 texto">
+            <h2>Um jeito contemporâneo <span>de viver</span> </h2> <!-- COLOCAR TUDO EM MAIUSCULO -->
+            <h5 class="hidden-md-down"> Tempo é um dos bens mais preciosos nos dias de hoje. É por isso que viver em um lugar onde o tempo seja valorizado e direcionado para a sua felicidade faz toda a diferença. No Pulse, você encontra tudo o que precisa para aproveitar o que a cidade tem de melhor sem perder a sua privacidade, já que está localizado em uma região estratégica de Porto Alegre. O Pulse é para quem deseja viver de um jeito conteporâneo, em apartamentos compactos e funcionais com estrutura compartilhada. E o mais importante: viver tudo isso no seu tempo. </h5>
+
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <img src="img/apartamento.jpg" class="img-responsive apartamento" alt="Apartamento">
+            </div>
+
+            
+            
+
+        </div>
+
 
     </section>
     <!-- final do Sobre o Pulse -->
@@ -162,4 +186,3 @@
 
 </body>
 </html>
-
