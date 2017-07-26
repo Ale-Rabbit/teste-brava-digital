@@ -10,37 +10,37 @@
 
  	/* Sobre */
  	.texto{
- 		/*background-color: green;*/
-/*    	width: 100vw;
+ 		
+    	width: 100vw;
     	align-items: center;
     	display: flex;
     	flex-direction: row;
     	justify-content: center;
-    	margin: 0px;*/
+    	margin: 0px;
  	}
 
  	h5{
- 		/*text-align: center;*/
+ 		text-align: right;
+ 		padding-left: 2%;
  	}
 
  	h2{
-    	/*font-weight:bold;
+    	font-weight:bold;
     	margin: 3%;
-    	text-align: left;*/
+    	text-align: center;
+    	font-size: 20px;
 	}
 
 	.apartamento{
-		/*margin-left: auto;*/
-    	/*margin-right: auto;*/
+		margin-left: auto;
+    	margin-right: auto;
 	}
 
+	/* Mapa */
+
+	.mapa {
+        height: 75%;
+    }
 
 
 }
-
-
-
-
-
-
-
