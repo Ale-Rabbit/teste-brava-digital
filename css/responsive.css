@@ -44,8 +44,9 @@
         font-size: 20px;
     }
 
-    #sobre p{
-        text-align: right;
+
+    #sobre h2{
+        font-size: 20px;
     }
 
 	.apartamento{
@@ -88,12 +89,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-
