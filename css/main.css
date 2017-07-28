@@ -1,0 +1,296 @@
+/* Css - style */ 
+
+body {
+    background-color: #000000;
+    color:#fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #ffffff;
+}
+
+h2{
+    margin-top: 5%;
+    font-weight:bold;
+    font-size: 35px;
+}
+
+
+p{
+    font-size: 15px;
+}
+
+span{
+  font-weight: normal;
+}
+
+.fa-chevron-right{
+  margin: 0 auto;
+}
+
+.fa-chevron-right:hover{
+  color:yellow;
+}
+
+.seta{
+  text-align: center;
+}
+
+/* Menu */
+
+.navbar-nav>li>a{
+  padding-top: 40px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight:200px;
+    font-size: larger;
+    font-weight:bold;
+}
+
+
+
+/* Sobre */
+
+
+#sobre span{
+  color:#00b8f6;
+
+}
+
+.logo-sobre { 
+    margin: 5% auto 5% auto;
+}
+
+.texto-sobre{
+  margin-right: auto;
+  margin-left: 10%;
+  width: 30%;
+}
+
+.apartamento{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+/* Mapa */
+
+#mapa {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+#mapa .seta{
+  margin-top: 5%;
+}
+
+/* Galeria de imagens */
+
+#carousel-bounding-box{
+  
+}
+
+#galeria{
+  text-align: center;
+}
+
+#galeria .row{
+  margin-right: 0px; 
+  margin-left: 0px; 
+}
+
+#galeria span{
+  color: #93bf14;
+
+}
+
+#galeria h2{
+  margin-bottom: 5%;
+}
+
+.media-carousel {
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+
+/* Botão de anterior */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Botão de próxima: COLOCAR UM ICONE;  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+
+/* Muda a posição dos indicadores */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+
+/* Muda a cor dos indicadores */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+
+.media-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+
+.item.thumbnail.active{
+  background-color: #000000;
+  border-color: #000000;
+}
+
+#galeria .seta{
+  margin-bottom: 5%;
+}
+
+/* Chwartzmann */
+
+#chwartzmann{ 
+  margin-right: 5%;
+  margin-left: 5%;   
+}
+
+
+footer, #chwartzmann{
+  background-color:#fff;
+  color: #000000;
+}
+
+.texto-chwartzmann{
+  margin-right: auto;
+  margin-left: 10%;
+  width: 40%;
+}
+
+#chwartzmann .seta{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* Formulário */
+
+#contato{
+  text-align: center;
+      margin-bottom: 5%;
+
+}
+
+.form-control{
+  background:#000000;
+  border-radius: 0;
+}
+
+#formulario {
+  width: 50%;
+  margin-top: 3%;
+}
+
+.segundo-form{
+  margin: 0px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4%;
+  margin-right: 0%: 
+}
+
+.form-nome{
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.form-group{
+  
+}
+.radio-inline{
+  margin-bottom: 4%;
+}
+
+.btn{
+  background-color: #bf0980;
+  width: 100%;
+  border-radius: 0 0 0 0;
+}
+
+
+/* Footer */
+
+footer span{
+  font-size: 25px;
+  margin: 2%;
+}
+
+footer p{
+ white-space: nowrap;
+}
+
+
+footer a, a:hover{
+  color:#000000;
+  text-decoration:none;
+}
+
+.descricao{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.primeiro-footer{
+  width: 45%;
+  margin: 0%;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.segundo-footer{
+  left: 4%;
+  width: 50%;
+  margin-bottom: 2%;
+}
+
+.logo-brava{
+  position: relative;
+  margin-top: 7%;
+  margin-bottom: 0%;
+  left: 10%;
+}
+
+.logo-chwartzmann{
+  position: relative;
+
+}
+
