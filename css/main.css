@@ -85,9 +85,14 @@ span{
 
 /* Mapa */
 
+
 #mapa {
   text-align: center;
   margin-bottom: 5%;
+}
+
+#mapa span{
+  color: #bf0980;
 }
 
 #mapa .seta{
